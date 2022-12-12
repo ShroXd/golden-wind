@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9049A06F29471D9800A1F548 /* golden_windApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A06E29471D9800A1F548 /* golden_windApp.swift */; };
+		9049A07129471D9800A1F548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A07029471D9800A1F548 /* ContentView.swift */; };
+		9049A07329471D9900A1F548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9049A07229471D9900A1F548 /* Assets.xcassets */; };
+		9049A07629471D9900A1F548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9049A07529471D9900A1F548 /* Preview Assets.xcassets */; };
+		9049A07829471D9900A1F548 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A07729471D9900A1F548 /* Persistence.swift */; };
+		9049A07B29471D9900A1F548 /* golden_wind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9049A07929471D9900A1F548 /* golden_wind.xcdatamodeld */; };
+		9049A08529471D9900A1F548 /* golden_windTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A08429471D9900A1F548 /* golden_windTests.swift */; };
+		9049A08F29471D9900A1F548 /* golden_windUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A08E29471D9900A1F548 /* golden_windUITests.swift */; };
+		9049A09129471D9900A1F548 /* golden_windUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9049A08129471D9900A1F548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9049A06329471D9800A1F548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049A06A29471D9800A1F548;
+			remoteInfo = "golden-wind";
+		};
+		9049A08B29471D9900A1F548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9049A06329471D9800A1F548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049A06A29471D9800A1F548;
+			remoteInfo = "golden-wind";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9049A06B29471D9800A1F548 /* golden-wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golden-wind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049A06E29471D9800A1F548 /* golden_windApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windApp.swift; sourceTree = "<group>"; };
+		9049A07029471D9800A1F548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9049A07229471D9900A1F548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9049A07529471D9900A1F548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9049A07729471D9900A1F548 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9049A07A29471D9900A1F548 /* golden_wind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = golden_wind.xcdatamodel; sourceTree = "<group>"; };
+		9049A08029471D9900A1F548 /* golden-windTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golden-windTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049A08429471D9900A1F548 /* golden_windTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windTests.swift; sourceTree = "<group>"; };
+		9049A08A29471D9900A1F548 /* golden-windUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golden-windUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049A08E29471D9900A1F548 /* golden_windUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windUITests.swift; sourceTree = "<group>"; };
+		9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9049A06829471D9800A1F548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A07D29471D9900A1F548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A08729471D9900A1F548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9049A06229471D9800A1F548 = {
+			isa = PBXGroup;
+			children = (
+				9049A06D29471D9800A1F548 /* golden-wind */,
+				9049A08329471D9900A1F548 /* golden-windTests */,
+				9049A08D29471D9900A1F548 /* golden-windUITests */,
+				9049A06C29471D9800A1F548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9049A06C29471D9800A1F548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9049A06B29471D9800A1F548 /* golden-wind.app */,
+				9049A08029471D9900A1F548 /* golden-windTests.xctest */,
+				9049A08A29471D9900A1F548 /* golden-windUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9049A06D29471D9800A1F548 /* golden-wind */ = {
+			isa = PBXGroup;
+			children = (
+				9049A06E29471D9800A1F548 /* golden_windApp.swift */,
+				9049A07029471D9800A1F548 /* ContentView.swift */,
+				9049A07229471D9900A1F548 /* Assets.xcassets */,
+				9049A07729471D9900A1F548 /* Persistence.swift */,
+				9049A07929471D9900A1F548 /* golden_wind.xcdatamodeld */,
+				9049A07429471D9900A1F548 /* Preview Content */,
+			);
+			path = "golden-wind";
+			sourceTree = "<group>";
+		};
+		9049A07429471D9900A1F548 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9049A07529471D9900A1F548 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9049A08329471D9900A1F548 /* golden-windTests */ = {
+			isa = PBXGroup;
+			children = (
+				9049A08429471D9900A1F548 /* golden_windTests.swift */,
+			);
+			path = "golden-windTests";
+			sourceTree = "<group>";
+		};
+		9049A08D29471D9900A1F548 /* golden-windUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9049A08E29471D9900A1F548 /* golden_windUITests.swift */,
+				9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */,
+			);
+			path = "golden-windUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9049A06A29471D9800A1F548 /* golden-wind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049A09429471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-wind" */;
+			buildPhases = (
+				9049A06729471D9800A1F548 /* Sources */,
+				9049A06829471D9800A1F548 /* Frameworks */,
+				9049A06929471D9800A1F548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "golden-wind";
+			productName = "golden-wind";
+			productReference = 9049A06B29471D9800A1F548 /* golden-wind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9049A07F29471D9900A1F548 /* golden-windTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049A09729471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-windTests" */;
+			buildPhases = (
+				9049A07C29471D9900A1F548 /* Sources */,
+				9049A07D29471D9900A1F548 /* Frameworks */,
+				9049A07E29471D9900A1F548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9049A08229471D9900A1F548 /* PBXTargetDependency */,
+			);
+			name = "golden-windTests";
+			productName = "golden-windTests";
+			productReference = 9049A08029471D9900A1F548 /* golden-windTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9049A08929471D9900A1F548 /* golden-windUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049A09A29471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-windUITests" */;
+			buildPhases = (
+				9049A08629471D9900A1F548 /* Sources */,
+				9049A08729471D9900A1F548 /* Frameworks */,
+				9049A08829471D9900A1F548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9049A08C29471D9900A1F548 /* PBXTargetDependency */,
+			);
+			name = "golden-windUITests";
+			productName = "golden-windUITests";
+			productReference = 9049A08A29471D9900A1F548 /* golden-windUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9049A06329471D9800A1F548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9049A06A29471D9800A1F548 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9049A07F29471D9900A1F548 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9049A06A29471D9800A1F548;
+					};
+					9049A08929471D9900A1F548 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9049A06A29471D9800A1F548;
+					};
+				};
+			};
+			buildConfigurationList = 9049A06629471D9800A1F548 /* Build configuration list for PBXProject "golden-wind" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9049A06229471D9800A1F548;
+			productRefGroup = 9049A06C29471D9800A1F548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9049A06A29471D9800A1F548 /* golden-wind */,
+				9049A07F29471D9900A1F548 /* golden-windTests */,
+				9049A08929471D9900A1F548 /* golden-windUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9049A06929471D9800A1F548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049A07629471D9900A1F548 /* Preview Assets.xcassets in Resources */,
+				9049A07329471D9900A1F548 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A07E29471D9900A1F548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A08829471D9900A1F548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9049A06729471D9800A1F548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049A07829471D9900A1F548 /* Persistence.swift in Sources */,
+				9049A07129471D9800A1F548 /* ContentView.swift in Sources */,
+				9049A07B29471D9900A1F548 /* golden_wind.xcdatamodeld in Sources */,
+				9049A06F29471D9800A1F548 /* golden_windApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A07C29471D9900A1F548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049A08529471D9900A1F548 /* golden_windTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049A08629471D9900A1F548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049A08F29471D9900A1F548 /* golden_windUITests.swift in Sources */,
+				9049A09129471D9900A1F548 /* golden_windUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9049A08229471D9900A1F548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9049A06A29471D9800A1F548 /* golden-wind */;
+			targetProxy = 9049A08129471D9900A1F548 /* PBXContainerItemProxy */;
+		};
+		9049A08C29471D9900A1F548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9049A06A29471D9800A1F548 /* golden-wind */;
+			targetProxy = 9049A08B29471D9900A1F548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9049A09229471D9900A1F548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9049A09329471D9900A1F548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9049A09529471D9900A1F548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"golden-wind/Preview Content\"";
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-wind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9049A09629471D9900A1F548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"golden-wind/Preview Content\"";
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-wind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9049A09829471D9900A1F548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-windTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golden-wind.app/golden-wind";
+			};
+			name = Debug;
+		};
+		9049A09929471D9900A1F548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-windTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golden-wind.app/golden-wind";
+			};
+			name = Release;
+		};
+		9049A09B29471D9900A1F548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-windUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "golden-wind";
+			};
+			name = Debug;
+		};
+		9049A09C29471D9900A1F548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gensokyo.golden-windUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "golden-wind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9049A06629471D9800A1F548 /* Build configuration list for PBXProject "golden-wind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049A09229471D9900A1F548 /* Debug */,
+				9049A09329471D9900A1F548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049A09429471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-wind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049A09529471D9900A1F548 /* Debug */,
+				9049A09629471D9900A1F548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049A09729471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-windTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049A09829471D9900A1F548 /* Debug */,
+				9049A09929471D9900A1F548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049A09A29471D9900A1F548 /* Build configuration list for PBXNativeTarget "golden-windUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049A09B29471D9900A1F548 /* Debug */,
+				9049A09C29471D9900A1F548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9049A07929471D9900A1F548 /* golden_wind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9049A07A29471D9900A1F548 /* golden_wind.xcdatamodel */,
+			);
+			currentVersion = 9049A07A29471D9900A1F548 /* golden_wind.xcdatamodel */;
+			path = golden_wind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9049A06329471D9800A1F548 /* Project object */;
+}
