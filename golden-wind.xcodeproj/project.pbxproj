@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9046105E2972719B0096D1F1 /* SquareCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9046105D2972719B0096D1F1 /* SquareCard.swift */; };
 		9049A06F29471D9800A1F548 /* golden_windApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A06E29471D9800A1F548 /* golden_windApp.swift */; };
 		9049A07129471D9800A1F548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A07029471D9800A1F548 /* ContentView.swift */; };
 		9049A07329471D9900A1F548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9049A07229471D9900A1F548 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		9049A08529471D9900A1F548 /* golden_windTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A08429471D9900A1F548 /* golden_windTests.swift */; };
 		9049A08F29471D9900A1F548 /* golden_windUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A08E29471D9900A1F548 /* golden_windUITests.swift */; };
 		9049A09129471D9900A1F548 /* golden_windUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */; };
+		9049A09F29471FEA00A1F548 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A09E29471FEA00A1F548 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9046105D2972719B0096D1F1 /* SquareCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCard.swift; sourceTree = "<group>"; };
 		9049A06B29471D9800A1F548 /* golden-wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golden-wind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9049A06E29471D9800A1F548 /* golden_windApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windApp.swift; sourceTree = "<group>"; };
 		9049A07029471D9800A1F548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		9049A08A29471D9900A1F548 /* golden-windUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golden-windUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9049A08E29471D9900A1F548 /* golden_windUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windUITests.swift; sourceTree = "<group>"; };
 		9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golden_windUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9049A09E29471FEA00A1F548 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		9049A06D29471D9800A1F548 /* golden-wind */ = {
 			isa = PBXGroup;
 			children = (
+				9049A09D29471F4A00A1F548 /* Views */,
 				9049A06E29471D9800A1F548 /* golden_windApp.swift */,
 				9049A07029471D9800A1F548 /* ContentView.swift */,
 				9049A07229471D9900A1F548 /* Assets.xcassets */,
@@ -131,6 +136,15 @@
 				9049A09029471D9900A1F548 /* golden_windUITestsLaunchTests.swift */,
 			);
 			path = "golden-windUITests";
+			sourceTree = "<group>";
+		};
+		9049A09D29471F4A00A1F548 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9049A09E29471FEA00A1F548 /* Home.swift */,
+				9046105D2972719B0096D1F1 /* SquareCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +279,8 @@
 			files = (
 				9049A07829471D9900A1F548 /* Persistence.swift in Sources */,
 				9049A07129471D9800A1F548 /* ContentView.swift in Sources */,
+				9046105E2972719B0096D1F1 /* SquareCard.swift in Sources */,
+				9049A09F29471FEA00A1F548 /* Home.swift in Sources */,
 				9049A07B29471D9900A1F548 /* golden_wind.xcdatamodeld in Sources */,
 				9049A06F29471D9800A1F548 /* golden_windApp.swift in Sources */,
 			);
